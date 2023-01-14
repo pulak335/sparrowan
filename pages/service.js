@@ -20,7 +20,7 @@ const service = () => {
             <div className='stage'>
             <Image src={Fore} alt="sparrowan"/>
             </div>
-            <h1 className='section-tille'>Development Work Proccess</h1>
+            <h1 className='section-tille'>Development Work Process</h1>
             <div className='work-proccess'>
               <Image src={WorkPro} alt="sparrowan work"/>
             </div>
