@@ -9,7 +9,7 @@ const services = [
       id:1,
       name: 'Web App development',
       content:'Develop robust online applications to suit your business needs and cater to your clients faithfully.',
-      icon:'https://www.flaticon.com/free-icons/technology'
+      icon:'https://cdn-icons-png.flaticon.com/512/2920/2920249.png'
     },
     {
       id:2,
