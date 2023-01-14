@@ -1,5 +1,5 @@
 import { faShopify, faUncharted } from '@fortawesome/free-brands-svg-icons';
-import { faBuilding, faBuildingNgo, faCar, faCarBattery, faCircleDollarToSlot, faGraduationCap, faHospitalUser, faPhotoFilm, faRocket, faShop, faTowerCell, faUserDoctor } from '@fortawesome/free-solid-svg-icons';
+import { faBuilding, faBuildingNgo, faCar, faCircleDollarToSlot, faGraduationCap, faHospitalUser, faPhotoFilm, faRocket, faShop, faTowerCell, faUserDoctor } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Container } from 'react-bootstrap';

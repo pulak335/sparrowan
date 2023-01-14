@@ -1,7 +1,8 @@
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import React from 'react';
-import { Button, Card, Container, Image } from 'react-bootstrap';
-import Out from '../../assets/service/icon/out.png'
+import { Card, Container } from 'react-bootstrap';
 
 const services = [
     {
@@ -105,7 +106,7 @@ const Servicebody = () => {
                                 service.content
                             }
                             <br/>
-                            <Link href="/contactus"> About More </Link>
+                            <Link href="/contactus"> About More <FontAwesomeIcon icon={faArrowRight} size="20px" className='ms-2'/></Link>
                         </Card.Text>
                     </Card.Body>
                     </Card>
