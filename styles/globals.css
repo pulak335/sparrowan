@@ -376,6 +376,13 @@
     padding: 80px;
     height: 50px;
 }
+/* 
+.in-icon-2{
+    color: #000;
+    font-size: 40px;
+    padding: 80px;
+    height: 50px;
+} */
 .col-2 h3{
     font-size: 22px;
     color: #fff;
@@ -905,8 +912,42 @@
     height: 350px;
     margin-bottom: 50px;
 }
+
+@media (min-width: 268px) and (max-width:475px) {
+    .stage{
+        display: block;
+    }
+    .stage img{
+        width: 100%;
+        height: 200px;
+    }
+    .work-proccess img{
+        height: 125px;
+    }
+}
+
 /* card-services-section section start  */
 /* card-services-section section start  */
+
+
+
+
+
+/* laptop- responsive section start  */
+/* laptop- responsive section start  */
+
+
+@media (min-width:300px) and (max-width:475px) {
+    .card-img-top {
+        margin: 5px auto !important;
+    }
+}
+.card{
+    margin: 0 auto !important;
+}
+
+/* laptop- responsive section start  */
+/* laptop- responsive section start  */
 
 
 

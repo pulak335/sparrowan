@@ -78,9 +78,9 @@ const Industries = () => {
                 <div className='row'>
                     {industry.map(item=>(
 
-                        <div className="col-12 col-md-2 col-lg-2 in-hover" key={item.icon}>
+                        <div className="col-12 col-md-2 col-lg-2 in-hover">
                             <div  className='in-icon'>
-                                <FontAwesomeIcon icon={item.icon} />
+                                <FontAwesomeIcon icon={item.icon} size={20}/>
                             </div>
                             <h3 className='text-center text-white'>{item.name}</h3>
                         </div>
